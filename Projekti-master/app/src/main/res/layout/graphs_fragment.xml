@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:ignore="MissingClass"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/teal_700"
+        android:gravity="center"
+        android:text="Tilastoja"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/clearaus"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="625dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#CA0606"
+        android:text="Clear data" />
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/ruoka_graph"
+        android:layout_width="match_parent"
+        android:layout_height="284dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginBottom="381dp" />
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/liikunta_graph"
+        android:layout_width="match_parent"
+        android:layout_height="316dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="309dp"
+        android:layout_marginBottom="106dp" />
+
+    <TextView
+        android:id="@+id/ruoka_graph_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="45dp"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/black"
+        android:text="Syötyjen annosten kalorimäärät:" />
+
+    <TextView
+        android:id="@+id/liikunta_graph_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="11dp"
+        android:text="Liikkuessa poltettujen kalorien määrät:"
+        android:textColor="@color/black" />
+
+</RelativeLayout>
+
+
+

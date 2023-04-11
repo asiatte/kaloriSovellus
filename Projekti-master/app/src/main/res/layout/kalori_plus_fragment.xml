@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/kalorit"
+        android:layout_width="226dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="161dp"
+        android:layout_marginEnd="169dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginBottom="522dp"
+        android:inputType="number"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:gravity="center"
+        android:text="Lisää Kaloreita"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/ruoka"
+        android:layout_width="291dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginBottom="609dp"
+        android:text="Ruoka"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="67dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="312dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="569dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Add" />
+
+    <ListView
+        android:id="@+id/ruokalista"
+        android:layout_width="match_parent"
+        android:layout_height="490dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="250dp"
+        android:background="#F4F4F4" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="332dp"
+        android:layout_marginBottom="663dp"
+        android:text="Ruoka:" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="332dp"
+        android:layout_marginBottom="580dp"
+        android:text="Kalorit:" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="254dp"
+        android:layout_marginTop="174dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="536dp"
+        android:text="Kaloria"
+        android:textSize="16dp" />
+
+</RelativeLayout>
