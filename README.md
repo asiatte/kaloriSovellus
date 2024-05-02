@@ -1,5 +1,5 @@
-Koulua varten tehty projekti. Mobiilisovellus päivittäisen kalorimäärän seuraamiseen. 
+A project made for school. A mobile application for tracking daily calorie intake.
 
-Käyttäjä pystyy sovelluksen avulla kirjaamaan päivänsä aikana syödyt kalorit sekä tehdyt liikuntasuoritukset. Näiden tietojen avulla käyttäjä pystyy erilaisten graafien sekä muiden visuaalisten apujen avulla seurata omaa syömistään sekä liikkumistaan.
+The user can use the application to log the calories consumed and physical activities performed throughout their day. With this information, the user can track their eating and exercise habits using various graphs and other visual aids.
 
-Sovellus on tehty Javalla. 
+The application was built using Java.
